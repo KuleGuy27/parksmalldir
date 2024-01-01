@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Hướng Dẫn Đi Parks Mall</title>
+<link rel="stylesheet" href="parksmalldir.css">
+</head>
+
+<body>
+<header>
+  <h1 style="text-align: center">Xin Chào Các Bạn. Đây Là Hướng Dẫn Đi Đến Tiệm Parks Mall ở Arlington, hãy theo dõi nhá!</h1>
+</header>
+<img id="directionImage" src="go to silo rd.png" alt="png"/>
+	<div class="buttons-container">
+	<button onclick="changeImage('go to silo rd_highlighted.png')">Đi về hướng Tây Nam về phía Silo Rd</button>
+		<br>
+	<button onclick="changeImage('go to silo rd_highlighted2.png')">Rẽ phải vào Silo Rd</button>
+		<br>
+	<button onclick="changeImage('Full Screenshot_car1.png')">Rẽ trái tại đường giao nhau thứ 1 vào Eden Rd</button>
+		<br>
+	<button onclick="changeImage('Full Screenshot_car2.png')">Rẽ phải vào Matlock Rd</button>
+		<br>
+	<button onclick="changeImage('arrivingto_parksmall1.png')">Sử dụng 2 làn đường bên trái để rẽ trái vào W Interstate 20</button>	
+		<br>
+	<button onclick="changeImage('arrivingto_parksmall2.png')">Chếch sang bên phải về hướng Parks at Arlington Mall</button>	
+		<br>
+	<button onclick="changeImage('arrivingto_parksmall3.png')">Rẽ phải vào Parks at Arlington Mall</button>
+	</div>
+	<script>
+    	function changeImage(imageSource) {document.getElementById('directionImage').src = imageSource;}
+	</script>
+</body>
+</html>
